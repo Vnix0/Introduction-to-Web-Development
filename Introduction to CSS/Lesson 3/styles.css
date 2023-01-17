@@ -98,7 +98,7 @@ html, body {
 }
 
 .main-footer {
-    background-color: #56CCF2;
+    background-color: #333333;
     color: white;
     padding: .25em 0;
 }
@@ -147,7 +147,7 @@ html, body {
 
 .btn-play {
     display: block;
-    margin: 0 auto;
+    margin: 15px auto;
     color: #2D9CDB;
     font-size: 4em;
     border-radius: 50%;
@@ -156,17 +156,33 @@ html, body {
     padding: 0;
     text-align: center;
 }
+.svg{
+    width:2rem;
+    filter: invert(90%) sepia(100%) saturate(0%) hue-rotate(218deg) brightness(108%) contrast(105%);
+    margin: auto 80%;
+    position:relative;
+    bottom:70%;
+
+}
+
+.svg:active, .svg:active:before, .svg:active:after{
+
+    cursor: pointer;
+    filter: invert(16%) sepia(86%) saturate(7462%) hue-rotate(358deg) brightness(92%) contrast(120%);
+
+}
+
 
 .btn-primary {
     color: white;
-    background-color: #56CCF2;
+    background-color: #555555;
     border: none;
-    border-radius: .3em;
+    border-radius: .5em;
     font-weight: bold;
 }
 
 .btn-primary:hover {
-    background-color: #2D9CDB;
+    background-color: #333333;
 }
 
 .tour-row {
@@ -204,6 +220,7 @@ html, body {
 
 .shop-item {
     margin: 30px;
+    border-radius:25% 25% 15px 15px ;
 }
 
 .shop-item-title {
@@ -218,6 +235,7 @@ html, body {
 
 .shop-item-image {
     height: 250px;
+    border-radius: 25%;
 }
 
 .shop-item-details {
@@ -284,14 +302,14 @@ html, body {
 
 .btn-danger {
     color: white;
-    background-color: #EB5757;
+    background-color: #555555;
     border: none;
     border-radius: .3em;
     font-weight: bold;
 }
 
 .btn-danger:hover {
-    background-color: #CC4C4C;
+    background-color: #333333;
 }
 
 .cart-quantity-input {
